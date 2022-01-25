@@ -1,0 +1,20 @@
+name: nokogiri-ext
+summary: Useful extensions to nokogiri
+description: A collection of useful extensions to nokogiri.
+license: MIT
+authors: Postmodern
+email: postmodern.mod3@gmail.com
+homepage: https://github.com/postmodern/nokogiri-ext#readme
+has_yard: true
+
+metadata:
+  documentation_uri: https://rubydoc.info/gems/fake_io
+  source_code_uri:   https://github.com/postmodern/nokogiri-ext
+  bug_tracker_uri:   https://github.com/postmodern/nokogiri-ext/issues
+  changelog_uri:     https://github.com/postmodern/nokogiri-ext/blob/master/ChangeLog.md
+
+dependencies:
+  nokogiri: ~> 1.0
+
+development_dependencies:
+  bundler: ~> 2.0
