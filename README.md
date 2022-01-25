@@ -43,7 +43,7 @@ gem 'nokogiri-ext', '~> 1.0'
 
 ## Examples
 
-### ==
+### equality
 
 Compare the contents of two XML/HTML elements:
 
