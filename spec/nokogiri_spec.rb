@@ -33,6 +33,6 @@ describe Nokogiri::HTML do
   end
 
   it "should provide a count of all sub-children" do
-    expect(@doc.total_children).to eq(12)
+    expect(@doc.traverse_count).to eq(12)
   end
 end

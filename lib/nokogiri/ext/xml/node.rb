@@ -12,7 +12,7 @@ module Nokogiri
       #
       # @api public
       #
-      def total_children
+      def traverse_count
         count = 0
 
         traverse { |node| count += 1 }

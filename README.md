@@ -15,7 +15,7 @@ nokogiri-ext is a collection of useful extensions to nokogiri.
 
 * Adds an `==` method to {Nokogiri::XML::Element}, {Nokogiri::XML::Attr},
   {Nokogiri::XML::Text}, {Nokogiri::XML::Node}.
-* Adds a `total_children` to {Nokogiri::XML::Document} and
+* Adds a `traverse_count` to {Nokogiri::XML::Document} and
   {Nokogiri::XML::Node}.
 * Adds {Nokogiri::XML::Node#traverse_text}.
 
@@ -57,19 +57,19 @@ Comparing the contents of two XML/HTML documents:
 doc1 == doc2
 ```
 
-### total_children
+### traverse_count
 
 Count the total number of elements under a XML/HTML element:
 
 ```ruby
-doc.at('//node').total_children
+doc.at('//node').traverse_count
 # => 7
 ```
 
 Count the total number of elements within a XML/HTML document:
 
 ```ruby
-doc.total_children
+doc.traverse_count
 # => 42
 ```
 

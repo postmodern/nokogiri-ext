@@ -13,9 +13,9 @@ module Nokogiri
       #
       # @api public
       #
-      def total_children
+      def traverse_count
         if root
-          1 + root.total_children
+          1 + root.traverse_count
         else
           0
         end
