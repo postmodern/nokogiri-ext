@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'ronin/web/extensions/nokogiri'
+require 'nokogiri/ext'
 
 require 'nokogiri'
 
