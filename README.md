@@ -48,6 +48,8 @@ gem 'nokogiri-ext', '~> 1.0'
 Compare the contents of two XML/HTML elements:
 
 ```ruby
+require 'nokogiri/ext/equality'
+
 doc1.at('//node') == doc2.at('//node')
 ```
 
@@ -62,6 +64,8 @@ doc1 == doc2
 Count the total number of elements under a XML/HTML element:
 
 ```ruby
+require 'nokogiri/ext/traverse_count'
+
 doc.at('//node').traverse_count
 # => 7
 ```
@@ -78,6 +82,8 @@ doc.traverse_count
 Traverses all text nodes in a XML/HTML document or node:
 
 ```ruby
+require 'nokogiri/ext/traverse_text'
+
 doc.traverse_text do |text|
   puts text
 end
