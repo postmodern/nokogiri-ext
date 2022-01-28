@@ -13,6 +13,8 @@ metadata:
   bug_tracker_uri:   https://github.com/postmodern/nokogiri-ext/issues
   changelog_uri:     https://github.com/postmodern/nokogiri-ext/blob/master/ChangeLog.md
 
+required_ruby_version: ">= 2.6.0"
+
 dependencies:
   nokogiri: ~> 1.0
 

@@ -21,6 +21,7 @@ nokogiri-ext is a collection of useful extensions to nokogiri.
 
 ## Requirements
 
+* [Ruby] >= 2.6.0
 * [nokogiri] ~> 1.0
 
 ## Install
@@ -95,4 +96,5 @@ Copyright (c) 2009-2021 Hal Brodigan
 
 See {file:LICENSE.txt} for details.
 
+[Ruby]: https://www.ruby-lang.org/
 [nokogiri]: https://github.com/sparklemotion/nokogiri#readme
