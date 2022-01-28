@@ -15,9 +15,9 @@ nokogiri-ext is a collection of useful extensions to nokogiri.
 
 * Adds an `==` method to {Nokogiri::XML::Element}, {Nokogiri::XML::Attr},
   {Nokogiri::XML::Text}, {Nokogiri::XML::Node}.
-* Adds a `traverse_count` to {Nokogiri::XML::Document} and
+* Adds a `traverse_count` method to {Nokogiri::XML::Document} and
   {Nokogiri::XML::Node}.
-* Adds {Nokogiri::XML::Node#traverse_text}.
+* Adds the {Nokogiri::XML::Node#traverse_text} method.
 
 ## Requirements
 
