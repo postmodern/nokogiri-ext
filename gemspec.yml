@@ -1,6 +1,6 @@
 name: nokogiri-ext
 summary: Useful extensions to nokogiri
-description: A collection of useful extensions to nokogiri.
+description: A collection of useful extensions to the nokogiri gem.
 license: MIT
 authors: Postmodern
 email: postmodern.mod3@gmail.com

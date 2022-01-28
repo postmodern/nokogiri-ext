@@ -9,7 +9,7 @@
 
 ## Description
 
-nokogiri-ext is a collection of useful extensions to [nokogiri].
+nokogiri-ext is a collection of useful extensions to the [nokogiri] gem.
 
 ## Features
 
