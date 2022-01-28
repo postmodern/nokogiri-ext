@@ -12,6 +12,7 @@ metadata:
   source_code_uri:   https://github.com/postmodern/nokogiri-ext
   bug_tracker_uri:   https://github.com/postmodern/nokogiri-ext/issues
   changelog_uri:     https://github.com/postmodern/nokogiri-ext/blob/master/ChangeLog.md
+  rubygems_mfa_required: 'true'
 
 required_ruby_version: ">= 2.6.0"
 
