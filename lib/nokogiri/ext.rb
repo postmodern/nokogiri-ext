@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'ext/equality'
 require_relative 'ext/traverse_count'
 require_relative 'ext/traverse_text'
