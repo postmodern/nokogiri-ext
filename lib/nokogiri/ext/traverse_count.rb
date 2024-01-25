@@ -1,2 +1,2 @@
-require 'nokogiri/ext/traverse_count/node'
-require 'nokogiri/ext/traverse_count/document'
+require_relative 'traverse_count/node'
+require_relative 'traverse_count/document'

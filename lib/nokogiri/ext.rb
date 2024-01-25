@@ -1,4 +1,4 @@
-require 'nokogiri/ext/equality'
-require 'nokogiri/ext/traverse_count'
-require 'nokogiri/ext/traverse_text'
-require 'nokogiri/ext/version'
+require_relative 'ext/equality'
+require_relative 'ext/traverse_count'
+require_relative 'ext/traverse_text'
+require_relative 'ext/version'
