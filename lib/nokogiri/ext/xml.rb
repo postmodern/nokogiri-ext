@@ -1,5 +1,3 @@
-require_relative 'xml/node'
-require_relative 'xml/text'
-require_relative 'xml/attr'
-require_relative 'xml/element'
-require_relative 'xml/document'
+require_relative 'equality'
+require_relative 'traverse_count'
+require_relative 'traverse_text'
