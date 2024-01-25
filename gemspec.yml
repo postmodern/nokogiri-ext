@@ -8,7 +8,7 @@ homepage: https://github.com/postmodern/nokogiri-ext#readme
 has_yard: true
 
 metadata:
-  documentation_uri: https://rubydoc.info/gems/fake_io
+  documentation_uri: https://rubydoc.info/gems/nokogiri-ext
   source_code_uri:   https://github.com/postmodern/nokogiri-ext
   bug_tracker_uri:   https://github.com/postmodern/nokogiri-ext/issues
   changelog_uri:     https://github.com/postmodern/nokogiri-ext/blob/master/ChangeLog.md
