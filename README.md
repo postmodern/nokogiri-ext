@@ -90,9 +90,7 @@ doc.traverse_text do |text|
 end
 ```
 
-## Copyright
-
-Copyright (c) 2009-2022 Hal Brodigan
+## License
 
 See {file:LICENSE.txt} for details.
 
